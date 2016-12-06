@@ -13,6 +13,25 @@
 * [pangu.rb](https://github.com/dlackty/pangu.rb) (Ruby)
 * [pangu.swift](https://github.com/X140Yu/pangu.Swift) (Swift)
 
+# Requirement
+Swift 3.0
 
+# Installation
 
+```ruby
+pod 'Pangu-Swift'
+```
+
+# Useage
+
+```swift
+debugPrint("Mr.龍島主道：「Let's Party!各位高明博雅君子！」".addSpacing())
+// Mr. 龍島主道：「Let's Party! 各位高明博雅君子！」
+```
+
+# Licence
+
+pangu.Swift is available under the [MIT License][mitLink]. See the LICENSE file for more info.
+
+[mitLink]:http://opensource.org/licenses/MIT
 
