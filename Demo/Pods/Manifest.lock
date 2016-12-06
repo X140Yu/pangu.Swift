@@ -1,11 +1,11 @@
 PODS:
-  - Pangu-Swift (0.0.1)
+  - Pangu-Swift (0.0.2)
 
 DEPENDENCIES:
   - Pangu-Swift
 
 SPEC CHECKSUMS:
-  Pangu-Swift: 3f1f5bc0a4ad059f35263fe1e70b010bdfbf95d2
+  Pangu-Swift: 0f5841bf85bec61f138392a63cf43105f23a4171
 
 PODFILE CHECKSUM: adc08bdc68dc101eb9de449c91df3c9d5e889fa5
 
