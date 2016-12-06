@@ -1,0 +1,6 @@
+framework module Pangu_Swift {
+  umbrella header "Pangu-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

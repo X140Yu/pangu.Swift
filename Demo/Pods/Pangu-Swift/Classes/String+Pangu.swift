@@ -49,7 +49,7 @@ fileprivate let panguRegex: () = {
     }
 }()
 
-extension String {
+public extension String {
 
     func addSpacing() -> String {
 

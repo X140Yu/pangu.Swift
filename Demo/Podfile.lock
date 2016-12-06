@@ -1,0 +1,12 @@
+PODS:
+  - Pangu-Swift (0.0.1)
+
+DEPENDENCIES:
+  - Pangu-Swift
+
+SPEC CHECKSUMS:
+  Pangu-Swift: 3f1f5bc0a4ad059f35263fe1e70b010bdfbf95d2
+
+PODFILE CHECKSUM: adc08bdc68dc101eb9de449c91df3c9d5e889fa5
+
+COCOAPODS: 1.1.1
