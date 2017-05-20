@@ -25,7 +25,7 @@ pod 'Pangu-Swift'
 # Useage
 
 ```swift
-debugPrint("Mr.龍島主道：「Let's Party!各位高明博雅君子！」".addSpacing())
+print( "Mr.龍島主道：「Let's Party!各位高明博雅君子！」".spaced )
 // Mr. 龍島主道：「Let's Party! 各位高明博雅君子！」
 ```
 
