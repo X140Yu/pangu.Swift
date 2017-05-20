@@ -51,7 +51,8 @@ fileprivate let panguRegex: () = {
 
 public extension String {
 
-    func addSpacing() -> String {
+    /// text with paranoid text spacing
+    public var spaced: String {
 
         _ = panguRegex
 
