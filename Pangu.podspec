@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name        = "Pangu-Swift"
+  s.name        = "Pangu"
   s.version     = "0.1"
   s.summary     = "Paranoid text spacing in Swift"
   s.description = "Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols)."
@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.source       = { :git => "https://github.com/X140Yu/pangu.Swift.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes/*.swift"
+  s.source_files  = "Sources/*.swift"
 
   s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/*.swift'
+    test_spec.source_files = 'Tests/panguTests/*.swift'
   end
 
 end
