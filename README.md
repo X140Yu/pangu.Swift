@@ -13,23 +13,24 @@
 * [pangu.rb](https://github.com/dlackty/pangu.rb) (Ruby)
 * [pangu.swift](https://github.com/X140Yu/pangu.Swift) (Swift)
 
-# Requirement
+## Requirement
 Swift 3.0
 
-# Installation
+## Installation
 
-```ruby
-pod 'Pangu-Swift'
-```
+- Swift Package Manager
+- Cocoapods: `pod 'Pangu'`
 
-# Useage
+## Useage
 
 ```swift
+import Pangu
+
 print( "Mr.龍島主道：「Let's Party!各位高明博雅君子！」".spaced )
 // Mr. 龍島主道：「Let's Party! 各位高明博雅君子！」
 ```
 
-# Licence
+## Licence
 
 pangu.Swift is available under the [MIT License][mitLink]. See the LICENSE file for more info.
 
