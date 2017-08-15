@@ -1,15 +1,7 @@
-//
-//  DemoTests.swift
-//  DemoTests
-//
-//  Created by X140Yu on 5/8/2017.
-//  Copyright © 2017 X140Yu. All rights reserved.
-//
-
 import XCTest
-import Pangu_Swift
+@testable import Pangu
 
-class PanguTests: XCTestCase {
+class panguTests: XCTestCase {
 
     func testSpacing() {
         XCTAssertEqual("新八的構造成分有95%是眼鏡、3%是水、2%是垃圾".spaced, "新八的構造成分有 95% 是眼鏡、3% 是水、2% 是垃圾")
@@ -23,4 +15,7 @@ class PanguTests: XCTestCase {
         XCTAssertEqual("前面[123漢字]後面".spaced, "前面 [123 漢字] 後面")
     }
 
+    static var allTests = [
+        ("testSpacing", testSpacing),
+    ]
 }

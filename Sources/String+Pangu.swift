@@ -1,11 +1,3 @@
-//
-//  String+Pangu.swift
-//  Pangu-Swift
-//
-//  Created by X140Yu on 12/6/16.
-//  Copyright © 2016 X140Yu. All rights reserved.
-//
-
 import Foundation
 
 fileprivate var cjk_ans_regex: NSRegularExpression!
