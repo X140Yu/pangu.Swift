@@ -1,81 +1,57 @@
 import Foundation
 
-fileprivate var cjk_ans_regex: NSRegularExpression!
-fileprivate var ans_cjk_regex: NSRegularExpression!
-fileprivate var cjk_quote_regex: NSRegularExpression!
-fileprivate var quote_cjk_regex: NSRegularExpression!
-fileprivate var fix_quote_regex: NSRegularExpression!
-fileprivate var cjk_bracket_cjk_regex: NSRegularExpression!
-fileprivate var cjk_bracket_regex: NSRegularExpression!
-fileprivate var bracket_cjk_regex: NSRegularExpression!
-fileprivate var fix_bracket_regex: NSRegularExpression!
-fileprivate var cjk_hash_regex: NSRegularExpression!
-fileprivate var hash_cjk_regex: NSRegularExpression!
+private struct PanguRegex {
 
-fileprivate let panguRegex: () = {
-    let CJK = "([\\p{InHiragana}\\p{InKatakana}\\p{InBopomofo}\\p{InCJKCompatibilityIdeographs}\\p{InCJKUnifiedIdeographs}])"
-    do {
-        cjk_ans_regex = try NSRegularExpression(pattern: "\(CJK)([a-z0-9`~@\\$%\\^&\\*\\-_\\+=\\|\\\\/])", options: .caseInsensitive)
-
-        ans_cjk_regex = try NSRegularExpression(pattern: "([a-z0-9`~!\\$%\\^&\\*\\-_\\+=\\|\\\\;:,\\./\\?])\(CJK)", options: .caseInsensitive)
-
-        cjk_quote_regex = try NSRegularExpression(pattern: "([\"'])\(CJK)", options: .caseInsensitive)
-
-        quote_cjk_regex = try NSRegularExpression(pattern: "\(CJK)([\"'])", options: .caseInsensitive)
-
-        fix_quote_regex = try NSRegularExpression(pattern: "([\"'])(\\s*)(.+?)(\\s*)([\"'])", options: .caseInsensitive)
-
-        cjk_bracket_cjk_regex = try NSRegularExpression(pattern: "\(CJK)([\\({\\[]+(.*?)[\\)}\\]]+)\(CJK)", options: .caseInsensitive)
-
-        cjk_bracket_regex = try NSRegularExpression(pattern: "\(CJK)([\\(\\){}\\[\\]<>])", options: .caseInsensitive)
-
-        bracket_cjk_regex = try NSRegularExpression(pattern: "\(CJK)([\\(\\){}\\[\\]<>])", options: .caseInsensitive)
-
-        fix_bracket_regex = try NSRegularExpression(pattern: "([(\\({\\[)]+)(\\s*)(.+?)(\\s*)([\\)}\\]]+)", options: .caseInsensitive)
-
-        cjk_hash_regex = try NSRegularExpression(pattern: "\(CJK)(#(\\S+))", options: .caseInsensitive)
-
-        hash_cjk_regex = try NSRegularExpression(pattern: "((\\S+)#)\(CJK)", options: .caseInsensitive)
-    } catch {
-
+    static private let CJK = "([\\p{InHiragana}\\p{InKatakana}\\p{InBopomofo}\\p{InCJKCompatibilityIdeographs}\\p{InCJKUnifiedIdeographs}])"
+    static private func regex(with patten: String) -> NSRegularExpression {
+        return try! NSRegularExpression(pattern: patten, options: .caseInsensitive)
     }
-}()
+
+    static let cjk_ans = regex(with: "\(CJK)([a-z0-9`~@\\$%\\^&\\*\\-_\\+=\\|\\\\/])")
+    static let ans_cjk = regex(with: "([a-z0-9`~!\\$%\\^&\\*\\-_\\+=\\|\\\\;:,\\./\\?])\(CJK)")
+    static let cjk_quote = regex(with: "([\"'])\(CJK)")
+    static let quote_cjk = regex(with: "\(CJK)([\"'])")
+    static let fix_quote = regex(with: "([\"'])(\\s*)(.+?)(\\s*)([\"'])")
+    static let cjk_bracket_cjk = regex(with: "\(CJK)([\\({\\[]+(.*?)[\\)}\\]]+)\(CJK)")
+    static let cjk_bracket = regex(with: "\(CJK)([\\(\\){}\\[\\]<>])")
+    static let bracket_cjk = regex(with: "\(CJK)([\\(\\){}\\[\\]<>])")
+    static let fix_bracket = regex(with: "([(\\({\\[)]+)(\\s*)(.+?)(\\s*)([\\)}\\]]+)")
+    static let cjk_hash = regex(with: "\(CJK)(#(\\S+))")
+    static let hash_cjk = regex(with: "((\\S+)#)\(CJK)")
+}
+
 
 public extension String {
 
     /// text with paranoid text spacing
     public var spaced: String {
 
-        _ = panguRegex
-
-        var result = self
-
-        result = cjk_quote_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
-
-        result = quote_cjk_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
-
-        result = fix_quote_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1$3$5")
-
-        let oldString = result
-        result = cjk_bracket_cjk_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2 $4")
-
-        if oldString == result {
-            result = cjk_bracket_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
-
-            result = bracket_cjk_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
+        func passRule(_ rule: (NSRegularExpression, String), on string: String) -> String {
+            return rule.0.stringByReplacingMatches(
+                in: string, options:[],
+                range: NSMakeRange(0, string.characters.count), withTemplate: rule.1)
         }
 
-        result = fix_bracket_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1$3$5")
+        var result = self
+        result = passRule((PanguRegex.cjk_quote, "$1 $2"), on: result)
+        result = passRule((PanguRegex.quote_cjk, "$1 $2"), on: result)
+        result = passRule((PanguRegex.fix_quote, "$1$3$5"), on: result)
 
-        result = cjk_hash_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
+        let old = result
+        result = passRule((PanguRegex.cjk_bracket_cjk, "$1 $2 $4"), on: result)
 
-        result = hash_cjk_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $3")
+        if result == old {
+            result = passRule((PanguRegex.cjk_bracket, "$1 $2"), on: result)
+            result = passRule((PanguRegex.bracket_cjk, "$1 $2"), on: result)
+        }
 
-        result = cjk_ans_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
-
-        result = ans_cjk_regex.stringByReplacingMatches(in: result, options: .reportProgress, range: NSMakeRange(0, result.characters.count), withTemplate: "$1 $2")
-
+        result = passRule((PanguRegex.fix_bracket, "$1$3$5"), on: result)
+        result = passRule((PanguRegex.cjk_hash, "$1 $2"), on: result)
+        result = passRule((PanguRegex.hash_cjk, "$1 $3"), on: result)
+        result = passRule((PanguRegex.cjk_ans, "$1 $2"), on: result)
+        result = passRule((PanguRegex.ans_cjk, "$1 $2"), on: result)
         return result
     }
 
 }
+
