@@ -7,138 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3719BC4A8976D0F59FC5242FB19CDC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7C6A39B9E15F2EA9062B6F82444F7B /* Foundation.framework */; };
-		393CF482801201FC64E298513B567B91 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
-		8CEC4AC80BB2D978C7AE5B7B5DCA4301 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A116C37CAEF17269D93DB1283C908DDA /* Pangu_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC170CEC24092ABAFB785BA9E76D9D2 /* Pangu_Swift.framework */; };
-		B071340871F7D585E1A50CB1C57D4ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7C6A39B9E15F2EA9062B6F82444F7B /* Foundation.framework */; };
-		B309D19B67C0C564057F8C8DF16E1B6D /* String+Pangu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAE343A1EF5088D4182A7016F082D7 /* String+Pangu.swift */; };
-		C76949B95B6C9D6B0BD0EBADC2D27A6E /* Pangu-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B902956BBF0C9F5BA9A04598F7039 /* Pangu-Swift-dummy.m */; };
-		C7F639BCE8DD15C556F0271C3079795D /* Pangu-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 961B02778883BC1FC0D966C59DB6BB0F /* Pangu-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6E83B88445D4156FDFA991C7E4AF191 /* PanguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBECCF3DCD6FA557F64CE96F7B43B0 /* PanguTests.swift */; };
-		FBF8CE8F932EE2C5B4699926E82F0BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7C6A39B9E15F2EA9062B6F82444F7B /* Foundation.framework */; };
+		020D92BE7C32DB916CE4A230BD1481E0 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0472ABA8D6D4C09BAB0586DCF40947D2 /* PanguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158573001DE517974F001AC4CE3256F /* PanguTests.swift */; };
+		27A8AC71D6A05F254AE17AE4A9CA7056 /* Pangu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF09CCCC8EFA0783E87779C3A23A9BF3 /* Pangu.framework */; };
+		59C3A2DC3F3169E17B2FF3AC4879F385 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
+		931CE9A13F762611C5EF92A52F5E175A /* String+Pangu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A8324C23FD477FF6DA0D71B85C84 /* String+Pangu.swift */; };
+		9603EB89E256160E38767B9E5D2FFA75 /* Pangu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249028CE0D7BDCAB94D1A649156C7F7D /* Pangu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD25AAA9B48545BC59FCB0EE4A8AE8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B356CEFAE4CE46C8653349EF28B07FE /* Foundation.framework */; };
+		ADC591293D8AF33AF6D907FE5E761941 /* Pangu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0127ADBF143733FFEB0025448B4C80 /* Pangu-dummy.m */; };
+		B7DC70262235A01BA75C9C1F3A49ABF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B356CEFAE4CE46C8653349EF28B07FE /* Foundation.framework */; };
+		DFCD1E3E0B0637C8C2D39E7AC266919A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B356CEFAE4CE46C8653349EF28B07FE /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B59F7F5A18DA71A53944495C21C5938 /* PBXContainerItemProxy */ = {
+		1EA64DCAF78409C87356164CB88A5B04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4862C3242DB49B9B040D2A585D273A3;
-			remoteInfo = "Pangu-Swift";
+			remoteGlobalIDString = 82A069EB917240BDD95015E991C1432B;
+			remoteInfo = Pangu;
 		};
-		6A5172B2482C0D9EBBEFB2489D0D85AB /* PBXContainerItemProxy */ = {
+		7D6CAD71C454888DB1D85B33AE8A5293 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4862C3242DB49B9B040D2A585D273A3;
-			remoteInfo = "Pangu-Swift";
+			remoteGlobalIDString = 82A069EB917240BDD95015E991C1432B;
+			remoteInfo = Pangu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D816AB31151790A09574BE3EFD2CE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		0D5D955180F93CA570C416AE7A33993D /* Pangu-Swift-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pangu-Swift-Unit-Tests"; path = "Pangu-Swift-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4736E4461A8F341E48A0AC5592C9AC /* Pangu-Swift-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pangu-Swift-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0BDFD21CAFAB24AC304F24AF16D6A03E /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF8AD38FD11AF854D3B34A6817AAB6 /* Pangu-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pangu-Unit-Tests"; path = "Pangu-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249028CE0D7BDCAB94D1A649156C7F7D /* Pangu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pangu-umbrella.h"; sourceTree = "<group>"; };
+		2B7FDCCB08817FB4D039B567C82BE4D7 /* Pangu.unit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pangu.unit.xcconfig; sourceTree = "<group>"; };
+		3158573001DE517974F001AC4CE3256F /* PanguTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanguTests.swift; path = Tests/PanguTests/PanguTests.swift; sourceTree = "<group>"; };
 		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		36CBECCF3DCD6FA557F64CE96F7B43B0 /* PanguTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanguTests.swift; path = Tests/PanguTests.swift; sourceTree = "<group>"; };
-		38BAE343A1EF5088D4182A7016F082D7 /* String+Pangu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Pangu.swift"; path = "Classes/String+Pangu.swift"; sourceTree = "<group>"; };
 		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		413AAB96059E8D06E7ED7E29CF7DFF0E /* Pangu-Swift.unit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pangu-Swift.unit.xcconfig"; sourceTree = "<group>"; };
-		545A650D371DF5FDCD372C54D0364F30 /* Pangu_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pangu_Swift.framework; path = "Pangu-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8B8A9DBE8109E2310F9CA09760E80A /* Pangu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Pangu.modulemap; sourceTree = "<group>"; };
+		5B356CEFAE4CE46C8653349EF28B07FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7AC170CEC24092ABAFB785BA9E76D9D2 /* Pangu_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pangu_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C7C6A39B9E15F2EA9062B6F82444F7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		830B4AA38F97C28089A017B2C0C1A786 /* Pangu-Swift-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pangu-Swift-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
+		7318A8324C23FD477FF6DA0D71B85C84 /* String+Pangu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Pangu.swift"; path = "Sources/String+Pangu.swift"; sourceTree = "<group>"; };
+		90E7D745CE361F4CB202F95BB18EA2E4 /* Pangu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pangu.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		961B02778883BC1FC0D966C59DB6BB0F /* Pangu-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pangu-Swift-umbrella.h"; sourceTree = "<group>"; };
-		A7FE669F59B26A5D37AEED3A36AD1947 /* Pangu-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pangu-Swift.xcconfig"; sourceTree = "<group>"; };
-		A9F82B3AC45CD1BC9906248BDFB6C562 /* Pangu-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pangu-Swift-prefix.pch"; sourceTree = "<group>"; };
-		B45B902956BBF0C9F5BA9A04598F7039 /* Pangu-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pangu-Swift-dummy.m"; sourceTree = "<group>"; };
-		B54801DADF2FE8D98A46EBCBBA227BBC /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BF807B3AD77F3FC5445B8E52B7D6FA /* Pangu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pangu.framework; path = Pangu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
 		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D110AD1A343C9E495FE2A1DC4CF65977 /* Pangu-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pangu-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D3D7F6D8663AF1F00CBB9E26AFED00F7 /* Pangu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pangu-prefix.pch"; sourceTree = "<group>"; };
+		D59EE777C20EB40EB0EA1951763F2F29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		DD0127ADBF143733FFEB0025448B4C80 /* Pangu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pangu-dummy.m"; sourceTree = "<group>"; };
 		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAA84D8BEA8DE084607C43CFC55702B1 /* Pangu-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pangu-Swift.modulemap"; sourceTree = "<group>"; };
+		F404DB0D057482C8FE9E1342527C4B6B /* Pangu-Unit-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pangu-Unit-Tests-resources.sh"; sourceTree = "<group>"; };
+		FF09CCCC8EFA0783E87779C3A23A9BF3 /* Pangu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pangu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AC75594B3C8649E38A770A61B3C63BC /* Frameworks */ = {
+		1B78F206D00AC72B7B06DA997CA5140A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3719BC4A8976D0F59FC5242FB19CDC23 /* Foundation.framework in Frameworks */,
-				A116C37CAEF17269D93DB1283C908DDA /* Pangu_Swift.framework in Frameworks */,
+				AD25AAA9B48545BC59FCB0EE4A8AE8BE /* Foundation.framework in Frameworks */,
+				27A8AC71D6A05F254AE17AE4A9CA7056 /* Pangu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		526D79746C05395B73B940435DCB4659 /* Frameworks */ = {
+		6B35ED3AC01954CF156C72BEFCFBD9B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBF8CE8F932EE2C5B4699926E82F0BE5 /* Foundation.framework in Frameworks */,
+				DFCD1E3E0B0637C8C2D39E7AC266919A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72273D9848D1F1F54D99F29403AE2651 /* Frameworks */ = {
+		BA7B1AF6783012F483FDBDD119A8C50F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B071340871F7D585E1A50CB1C57D4ADD /* Foundation.framework in Frameworks */,
+				B7DC70262235A01BA75C9C1F3A49ABF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B6E59A7127D84D6D4BC240F337735EF /* Products */ = {
+		36C7882E53EC0B33575B95A30F85B0AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D5D955180F93CA570C416AE7A33993D /* Pangu-Swift-Unit-Tests */,
-				545A650D371DF5FDCD372C54D0364F30 /* Pangu_Swift.framework */,
-				B54801DADF2FE8D98A46EBCBBA227BBC /* Pods_Demo.framework */,
+				FF09CCCC8EFA0783E87779C3A23A9BF3 /* Pangu.framework */,
+				467AF6D23D87ADFED28138D9702AC35E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		467AF6D23D87ADFED28138D9702AC35E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B356CEFAE4CE46C8653349EF28B07FE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		597851565FAA1AC2C5063183A50C220F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3158573001DE517974F001AC4CE3256F /* PanguTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		6B982F7CCC63E03E221328250BB2A952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BF807B3AD77F3FC5445B8E52B7D6FA /* Pangu.framework */,
+				21AF8AD38FD11AF854D3B34A6817AAB6 /* Pangu-Unit-Tests */,
+				0BDFD21CAFAB24AC304F24AF16D6A03E /* Pods_Demo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34772764EFD60238166A2EF507D4A82F /* Pangu-Swift */ = {
+		6EEB6572C102076D6698191C4AC17183 /* Pangu */ = {
 			isa = PBXGroup;
 			children = (
-				38BAE343A1EF5088D4182A7016F082D7 /* String+Pangu.swift */,
-				646D4FD58C2248538FE7FF7047097A2E /* Support Files */,
-				86097E61B3F12831585F975D1A9E00A0 /* Tests */,
+				7318A8324C23FD477FF6DA0D71B85C84 /* String+Pangu.swift */,
+				CCD258634F7F54FE50FEED22FEB5E68A /* Support Files */,
+				597851565FAA1AC2C5063183A50C220F /* Tests */,
 			);
-			name = "Pangu-Swift";
+			name = Pangu;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		646D4FD58C2248538FE7FF7047097A2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				03D816AB31151790A09574BE3EFD2CE7 /* Info.plist */,
-				EAA84D8BEA8DE084607C43CFC55702B1 /* Pangu-Swift.modulemap */,
-				A7FE669F59B26A5D37AEED3A36AD1947 /* Pangu-Swift.xcconfig */,
-				B45B902956BBF0C9F5BA9A04598F7039 /* Pangu-Swift-dummy.m */,
-				A9F82B3AC45CD1BC9906248BDFB6C562 /* Pangu-Swift-prefix.pch */,
-				961B02778883BC1FC0D966C59DB6BB0F /* Pangu-Swift-umbrella.h */,
-				2D4736E4461A8F341E48A0AC5592C9AC /* Pangu-Swift-Unit-Tests-frameworks.sh */,
-				830B4AA38F97C28089A017B2C0C1A786 /* Pangu-Swift-Unit-Tests-resources.sh */,
-				413AAB96059E8D06E7ED7E29CF7DFF0E /* Pangu-Swift.unit.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/Pangu-Swift";
-			sourceTree = "<group>";
-		};
-		6B2488D2C81E496C7167E25F326C5045 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7C7C6A39B9E15F2EA9062B6F82444F7B /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
@@ -149,40 +149,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		77905DBA08049BEEF3B6C6C0C95A0EE9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34772764EFD60238166A2EF507D4A82F /* Pangu-Swift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				77905DBA08049BEEF3B6C6C0C95A0EE9 /* Development Pods */,
-				9F40B8B577D2EF48F25576DF00D583ED /* Frameworks */,
-				0B6E59A7127D84D6D4BC240F337735EF /* Products */,
+				F02F7E9EAAA03F2473DF899D71ABBA51 /* Development Pods */,
+				36C7882E53EC0B33575B95A30F85B0AC /* Frameworks */,
+				6B982F7CCC63E03E221328250BB2A952 /* Products */,
 				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86097E61B3F12831585F975D1A9E00A0 /* Tests */ = {
+		CCD258634F7F54FE50FEED22FEB5E68A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36CBECCF3DCD6FA557F64CE96F7B43B0 /* PanguTests.swift */,
+				D59EE777C20EB40EB0EA1951763F2F29 /* Info.plist */,
+				4D8B8A9DBE8109E2310F9CA09760E80A /* Pangu.modulemap */,
+				90E7D745CE361F4CB202F95BB18EA2E4 /* Pangu.xcconfig */,
+				DD0127ADBF143733FFEB0025448B4C80 /* Pangu-dummy.m */,
+				D3D7F6D8663AF1F00CBB9E26AFED00F7 /* Pangu-prefix.pch */,
+				249028CE0D7BDCAB94D1A649156C7F7D /* Pangu-umbrella.h */,
+				D110AD1A343C9E495FE2A1DC4CF65977 /* Pangu-Unit-Tests-frameworks.sh */,
+				F404DB0D057482C8FE9E1342527C4B6B /* Pangu-Unit-Tests-resources.sh */,
+				2B7FDCCB08817FB4D039B567C82BE4D7 /* Pangu.unit.xcconfig */,
 			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		9F40B8B577D2EF48F25576DF00D583ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7AC170CEC24092ABAFB785BA9E76D9D2 /* Pangu_Swift.framework */,
-				6B2488D2C81E496C7167E25F326C5045 /* iOS */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/Pangu";
 			sourceTree = "<group>";
 		};
 		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
@@ -203,80 +195,88 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
+		F02F7E9EAAA03F2473DF899D71ABBA51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB6572C102076D6698191C4AC17183 /* Pangu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EE069558597A91444B31EEECB9FC34B7 /* Headers */ = {
+		A6964593265875BC16CABC9648C1ED70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEC4AC80BB2D978C7AE5B7B5DCA4301 /* Pods-Demo-umbrella.h in Headers */,
+				020D92BE7C32DB916CE4A230BD1481E0 /* Pods-Demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40C02F4FDCFEA4D2A2152A0F7347858 /* Headers */ = {
+		E86AD63B201424E26453AA2E3BF7CBDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7F639BCE8DD15C556F0271C3079795D /* Pangu-Swift-umbrella.h in Headers */,
+				9603EB89E256160E38767B9E5D2FFA75 /* Pangu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7C91FA0EECF99455A8F552FCF7E03AE2 /* Pangu-Swift-Unit-Tests */ = {
+		1E69B2C4006220B9FA06D67B275A2F78 /* Pods-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6457D9963D3F97E6CEE5118E885658CD /* Build configuration list for PBXNativeTarget "Pangu-Swift-Unit-Tests" */;
+			buildConfigurationList = 16AFE66FFF846AC9AE7879A90A6FB29D /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
 			buildPhases = (
-				22F9101CA7B26873FAE218775D3C4354 /* Sources */,
-				2AC75594B3C8649E38A770A61B3C63BC /* Frameworks */,
-				9EDBBC4AC99D68F885DD6607524C3310 /* [CP] Embed Pods Frameworks */,
-				A081D72A43856C7FAC0486D603ABD826 /* [CP] Copy Pods Resources */,
+				2C866BA92BCCBD9907EE131D5FA77A64 /* Sources */,
+				6B35ED3AC01954CF156C72BEFCFBD9B5 /* Frameworks */,
+				A6964593265875BC16CABC9648C1ED70 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00768B1958AC525DD45AEF64F7F39EA0 /* PBXTargetDependency */,
-			);
-			name = "Pangu-Swift-Unit-Tests";
-			productName = "Pangu-Swift-Unit-Tests";
-			productReference = 0D5D955180F93CA570C416AE7A33993D /* Pangu-Swift-Unit-Tests */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C16E8692E5AE24CA339F0516BA55D599 /* Pods-Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAB8224BC69697F4A7FD680ADD51A1BD /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
-			buildPhases = (
-				AF95E74DF3862D766C51EE36A8D73CAB /* Sources */,
-				72273D9848D1F1F54D99F29403AE2651 /* Frameworks */,
-				EE069558597A91444B31EEECB9FC34B7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F43BE117EC0811ED2195EB3D29E081A /* PBXTargetDependency */,
+				F8B1DE048D16A917746F1DCA62F6C6EC /* PBXTargetDependency */,
 			);
 			name = "Pods-Demo";
 			productName = "Pods-Demo";
-			productReference = B54801DADF2FE8D98A46EBCBBA227BBC /* Pods_Demo.framework */;
+			productReference = 0BDFD21CAFAB24AC304F24AF16D6A03E /* Pods_Demo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F4862C3242DB49B9B040D2A585D273A3 /* Pangu-Swift */ = {
+		2BDB517244E7EF9C9DED12DD9B7F5B32 /* Pangu-Unit-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86E784A4C344FAC814C434E407DAFFEA /* Build configuration list for PBXNativeTarget "Pangu-Swift" */;
+			buildConfigurationList = F8AA86FB1EFF02EB627B0ACBD3B91381 /* Build configuration list for PBXNativeTarget "Pangu-Unit-Tests" */;
 			buildPhases = (
-				F0A9DFDD41C425940F8CD798CBD9A5A4 /* Sources */,
-				526D79746C05395B73B940435DCB4659 /* Frameworks */,
-				F40C02F4FDCFEA4D2A2152A0F7347858 /* Headers */,
+				D2038C0066D15463463FCEA9DA1C4E3C /* Sources */,
+				1B78F206D00AC72B7B06DA997CA5140A /* Frameworks */,
+				805D41C9F1EFBDEFA5FC732587B98925 /* [CP] Embed Pods Frameworks */,
+				6434E7D3BF7C5242C6432FDA7B3113F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A325C07E38C3619798B75B01251B39E /* PBXTargetDependency */,
+			);
+			name = "Pangu-Unit-Tests";
+			productName = "Pangu-Unit-Tests";
+			productReference = 21AF8AD38FD11AF854D3B34A6817AAB6 /* Pangu-Unit-Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82A069EB917240BDD95015E991C1432B /* Pangu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FEB9E456F472DAD38649B2FEE3F88D /* Build configuration list for PBXNativeTarget "Pangu" */;
+			buildPhases = (
+				A878D6E0E69A6119923EA90EAB4179C1 /* Sources */,
+				BA7B1AF6783012F483FDBDD119A8C50F /* Frameworks */,
+				E86AD63B201424E26453AA2E3BF7CBDC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pangu-Swift";
-			productName = "Pangu-Swift";
-			productReference = 545A650D371DF5FDCD372C54D0364F30 /* Pangu_Swift.framework */;
+			name = Pangu;
+			productName = Pangu;
+			productReference = 96BF807B3AD77F3FC5445B8E52B7D6FA /* Pangu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -296,37 +296,19 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0B6E59A7127D84D6D4BC240F337735EF /* Products */;
+			productRefGroup = 6B982F7CCC63E03E221328250BB2A952 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4862C3242DB49B9B040D2A585D273A3 /* Pangu-Swift */,
-				7C91FA0EECF99455A8F552FCF7E03AE2 /* Pangu-Swift-Unit-Tests */,
-				C16E8692E5AE24CA339F0516BA55D599 /* Pods-Demo */,
+				82A069EB917240BDD95015E991C1432B /* Pangu */,
+				2BDB517244E7EF9C9DED12DD9B7F5B32 /* Pangu-Unit-Tests */,
+				1E69B2C4006220B9FA06D67B275A2F78 /* Pods-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9EDBBC4AC99D68F885DD6607524C3310 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pangu-Swift/Pangu-Swift-Unit-Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Pangu-Swift/Pangu_Swift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pangu_Swift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pangu-Swift/Pangu-Swift-Unit-Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A081D72A43856C7FAC0486D603ABD826 /* [CP] Copy Pods Resources */ = {
+		6434E7D3BF7C5242C6432FDA7B3113F3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,58 +320,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pangu-Swift/Pangu-Swift-Unit-Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pangu/Pangu-Unit-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805D41C9F1EFBDEFA5FC732587B98925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pangu/Pangu-Unit-Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pangu/Pangu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pangu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pangu/Pangu-Unit-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22F9101CA7B26873FAE218775D3C4354 /* Sources */ = {
+		2C866BA92BCCBD9907EE131D5FA77A64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E83B88445D4156FDFA991C7E4AF191 /* PanguTests.swift in Sources */,
+				59C3A2DC3F3169E17B2FF3AC4879F385 /* Pods-Demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF95E74DF3862D766C51EE36A8D73CAB /* Sources */ = {
+		A878D6E0E69A6119923EA90EAB4179C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393CF482801201FC64E298513B567B91 /* Pods-Demo-dummy.m in Sources */,
+				ADC591293D8AF33AF6D907FE5E761941 /* Pangu-dummy.m in Sources */,
+				931CE9A13F762611C5EF92A52F5E175A /* String+Pangu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0A9DFDD41C425940F8CD798CBD9A5A4 /* Sources */ = {
+		D2038C0066D15463463FCEA9DA1C4E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C76949B95B6C9D6B0BD0EBADC2D27A6E /* Pangu-Swift-dummy.m in Sources */,
-				B309D19B67C0C564057F8C8DF16E1B6D /* String+Pangu.swift in Sources */,
+				0472ABA8D6D4C09BAB0586DCF40947D2 /* PanguTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00768B1958AC525DD45AEF64F7F39EA0 /* PBXTargetDependency */ = {
+		5A325C07E38C3619798B75B01251B39E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pangu-Swift";
-			target = F4862C3242DB49B9B040D2A585D273A3 /* Pangu-Swift */;
-			targetProxy = 6A5172B2482C0D9EBBEFB2489D0D85AB /* PBXContainerItemProxy */;
+			name = Pangu;
+			target = 82A069EB917240BDD95015E991C1432B /* Pangu */;
+			targetProxy = 7D6CAD71C454888DB1D85B33AE8A5293 /* PBXContainerItemProxy */;
 		};
-		0F43BE117EC0811ED2195EB3D29E081A /* PBXTargetDependency */ = {
+		F8B1DE048D16A917746F1DCA62F6C6EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pangu-Swift";
-			target = F4862C3242DB49B9B040D2A585D273A3 /* Pangu-Swift */;
-			targetProxy = 3B59F7F5A18DA71A53944495C21C5938 /* PBXContainerItemProxy */;
+			name = Pangu;
+			target = 82A069EB917240BDD95015E991C1432B /* Pangu */;
+			targetProxy = 1EA64DCAF78409C87356164CB88A5B04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B59CAB89403B3087C1EA7D5B1C75104 /* Release */ = {
+		04922C27311B293FA8926B11388E22EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413AAB96059E8D06E7ED7E29CF7DFF0E /* Pangu-Swift.unit.xcconfig */;
+			baseConfigurationReference = 2B7FDCCB08817FB4D039B567C82BE4D7 /* Pangu.unit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -399,7 +399,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "Pangu-Swift-Unit-Tests";
+				PRODUCT_NAME = "Pangu-Unit-Tests";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -456,79 +456,6 @@
 			};
 			name = Debug;
 		};
-		1D95B7591434AA0F87D191BA50B4534A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7FE669F59B26A5D37AEED3A36AD1947 /* Pangu-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pangu-Swift/Pangu-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pangu-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pangu-Swift/Pangu-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Pangu_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		221838D1843CD52DE04BAD21F8D9E363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Demo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,9 +500,9 @@
 			};
 			name = Release;
 		};
-		4BDD8CE3D4D204CEB08B324176521ED8 /* Release */ = {
+		4467E60D2666C0B53BD13AD47C98D8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7FE669F59B26A5D37AEED3A36AD1947 /* Pangu-Swift.xcconfig */;
+			baseConfigurationReference = 90E7D745CE361F4CB202F95BB18EA2E4 /* Pangu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,14 +516,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pangu-Swift/Pangu-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pangu-Swift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pangu/Pangu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pangu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pangu-Swift/Pangu-Swift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pangu/Pangu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Pangu_Swift;
+				PRODUCT_NAME = Pangu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -608,7 +535,31 @@
 			};
 			name = Release;
 		};
-		5CB1EF367943F02108B64C4D710F9C0D /* Debug */ = {
+		477F49EE61F878F1536BAB28A980C2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7FDCCB08817FB4D039B567C82BE4D7 /* Pangu.unit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lswiftSwiftOnoneSupport",
+				);
+				PRODUCT_NAME = "Pangu-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D4300504F61FC7B402CE0C4F3463E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
@@ -647,33 +598,100 @@
 			};
 			name = Debug;
 		};
-		9DEF59AD32F88301A8D2E4DDC76465C3 /* Debug */ = {
+		9C159184A0FDA13810D264E2EE3779F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413AAB96059E8D06E7ED7E29CF7DFF0E /* Pangu-Swift.unit.xcconfig */;
+			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lswiftSwiftOnoneSupport",
-				);
-				PRODUCT_NAME = "Pangu-Swift-Unit-Tests";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD2C151FEA0E6A1CE920E68FC668ACC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E7D745CE361F4CB202F95BB18EA2E4 /* Pangu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pangu/Pangu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pangu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pangu/Pangu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pangu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00FEB9E456F472DAD38649B2FEE3F88D /* Build configuration list for PBXNativeTarget "Pangu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2C151FEA0E6A1CE920E68FC668ACC8 /* Debug */,
+				4467E60D2666C0B53BD13AD47C98D8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AFE66FFF846AC9AE7879A90A6FB29D /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4300504F61FC7B402CE0C4F3463E2C /* Debug */,
+				9C159184A0FDA13810D264E2EE3779F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -683,29 +701,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6457D9963D3F97E6CEE5118E885658CD /* Build configuration list for PBXNativeTarget "Pangu-Swift-Unit-Tests" */ = {
+		F8AA86FB1EFF02EB627B0ACBD3B91381 /* Build configuration list for PBXNativeTarget "Pangu-Unit-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DEF59AD32F88301A8D2E4DDC76465C3 /* Debug */,
-				0B59CAB89403B3087C1EA7D5B1C75104 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		86E784A4C344FAC814C434E407DAFFEA /* Build configuration list for PBXNativeTarget "Pangu-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D95B7591434AA0F87D191BA50B4534A /* Debug */,
-				4BDD8CE3D4D204CEB08B324176521ED8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAB8224BC69697F4A7FD680ADD51A1BD /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CB1EF367943F02108B64C4D710F9C0D /* Debug */,
-				221838D1843CD52DE04BAD21F8D9E363 /* Release */,
+				477F49EE61F878F1536BAB28A980C2A5 /* Debug */,
+				04922C27311B293FA8926B11388E22EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
