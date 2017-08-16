@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pangu_SwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pangu_SwiftVersionString[];
+FOUNDATION_EXPORT double PanguVersionNumber;
+FOUNDATION_EXPORT const unsigned char PanguVersionString[];
 
