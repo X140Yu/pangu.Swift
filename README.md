@@ -1,5 +1,7 @@
 # pangu.Swift
 
+[![Build Status](https://travis-ci.org/X140Yu/pangu.Swift.svg?branch=master)](https://travis-ci.org/X140Yu/pangu.Swift)
+
 為什麼你們就是不能加個空格呢？
 
 * [pangu.clj](https://github.com/coldnew/pangu.clj) (Clojure)
