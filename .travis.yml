@@ -1,0 +1,5 @@
+osx_image: xcode9
+language: swift
+xcode_project: Demo/Demo.xcworkspace
+xcode_scheme: Pangu-Swift
+podfile: Demo/Podfile
