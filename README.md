@@ -27,7 +27,7 @@ Swift 4.0
 ## Useage
 
 ```swift
-import Pangu
+import Pangu_Swift
 
 print( "Mr.龍島主道：「Let's Party!各位高明博雅君子！」".spaced )
 // Mr. 龍島主道：「Let's Party! 各位高明博雅君子！」
