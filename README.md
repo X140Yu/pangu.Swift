@@ -16,7 +16,7 @@
 * [pangu.swift](https://github.com/X140Yu/pangu.Swift) (Swift)
 
 ## Requirement
-Swift 3.0
+Swift 4.0
 
 ## Installation
 
