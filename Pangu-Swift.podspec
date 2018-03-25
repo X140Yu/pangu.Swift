@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = "Pangu-Swift"
-  s.version     = "0.2"
+  s.version     = "1.0"
   s.summary     = "Paranoid text spacing in Swift"
   s.description = "Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols)."
   s.homepage    = "https://github.com/X140Yu/pangu.Swift"
