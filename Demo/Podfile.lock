@@ -1,18 +1,18 @@
 PODS:
-  - Pangu (0.1)
-  - Pangu/Tests (0.1)
+  - Pangu-Swift (0.2)
+  - Pangu-Swift/Tests (0.2)
 
 DEPENDENCIES:
-  - Pangu (from `../`)
-  - Pangu/Tests (from `../`)
+  - Pangu-Swift (from `../`)
+  - Pangu-Swift/Tests (from `../`)
 
 EXTERNAL SOURCES:
-  Pangu:
+  Pangu-Swift:
     :path: ../
 
 SPEC CHECKSUMS:
-  Pangu: 312b4e1b21195752fa94456a53bd68bb413445f1
+  Pangu-Swift: cd8c1d82d880fcbf3ef3ba5e4b292be091876721
 
-PODFILE CHECKSUM: b46df4d831484abfe7632ce746efe0a75148bc61
+PODFILE CHECKSUM: bc6b54015551dfceb7446b0685af04bfb4c5d2d8
 
 COCOAPODS: 1.4.0

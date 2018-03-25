@@ -1,5 +1,5 @@
 import XCTest
-@testable import Pangu
+@testable import Pangu_Swift
 
 class panguTests: XCTestCase {
 

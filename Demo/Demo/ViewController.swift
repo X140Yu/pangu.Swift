@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Pangu
+import Pangu_Swift
 
 class ViewController: UIViewController {
 
