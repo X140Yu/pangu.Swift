@@ -16,12 +16,13 @@
 * [pangu.swift](https://github.com/X140Yu/pangu.Swift) (Swift)
 
 ## Requirement
+
 Swift 4.0
 
 ## Installation
 
 - Swift Package Manager
-- Cocoapods: `pod 'Pangu'`
+- Cocoapods: `pod 'Pangu-Swift', '~> 1.0'`
 
 ## Useage
 
