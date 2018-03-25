@@ -15,6 +15,14 @@ class panguTests: XCTestCase {
         XCTAssertEqual("前面[123漢字]後面".spaced, "前面 [123 漢字] 後面")
     }
 
+    func testPerformance() {
+        measure {
+            for _ in 1...100 {
+                "前面(中文123漢字) tail".spaced
+            }
+        }
+    }
+
     static var allTests = [
         ("testSpacing", testSpacing),
     ]

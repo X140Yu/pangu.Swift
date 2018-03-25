@@ -1,6 +1,0 @@
-framework module Pangu {
-  umbrella header "Pangu-umbrella.h"
-
-  export *
-  module * { export * }
-}
