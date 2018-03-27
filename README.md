@@ -1,6 +1,8 @@
 # pangu.Swift
 
 [![Build Status](https://travis-ci.org/X140Yu/pangu.Swift.svg?branch=master)](https://travis-ci.org/X140Yu/pangu.Swift)
+[![CocoaPods](https://img.shields.io/cocoapods/v/Pangu-Swift.svg)](https://github.com/X140Yu/pangu.Swift)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 為什麼你們就是不能加個空格呢？
 
