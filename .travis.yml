@@ -1,5 +1,7 @@
-osx_image: xcode9
+osx_image: xcode9.2
 language: swift
-xcode_project: Demo/Demo.xcworkspace
+xcode_workspace: Demo/Demo.xcworkspace
 xcode_scheme: Pangu-Swift
 podfile: Demo/Podfile
+script:
+  - set -o pipefail && xcodebuild -workspace Demo/Demo.xcworkspace -scheme Pangu-Swift | xcpretty
