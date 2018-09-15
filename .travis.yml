@@ -1,7 +1,5 @@
 osx_image: xcode9.2
 language: swift
-xcode_workspace: Demo/Demo.xcworkspace
-xcode_scheme: Pangu-Swift
-podfile: Demo/Podfile
 script:
-  - set -o pipefail && xcodebuild -workspace Demo/Demo.xcworkspace -scheme Pangu-Swift -sdk iphonesimulator11.2 | xcpretty
+  - swift build
+  - swift test
