@@ -19,12 +19,22 @@
 
 ## Requirement
 
-Swift 4.0
+Swift 4.0+
 
 ## Installation
 
-- Swift Package Manager
-- Cocoapods: `pod 'Pangu-Swift', '~> 1.0'`
+### Swift Package Manager
+
+```swift
+dependencies: [
+  .package(url: "https://github.com/X140Yu/pangu.Swift", .upToNextMajor(from: "1.0")),
+  //...
+]
+```
+
+### Cocoapods
+
+    pod 'Pangu-Swift', '~> 1.0'
 
 ## Useage
 
@@ -33,6 +43,19 @@ import Pangu_Swift
 
 print( "Mr.龍島主道：「Let's Party!各位高明博雅君子！」".spaced )
 // Mr. 龍島主道：「Let's Party! 各位高明博雅君子！」
+```
+
+## Development
+
+```bash
+# generate the Xcode project
+$ swift package generate-xcodeproj
+
+# build
+$ swift build
+
+# run all tests
+$ swift test
 ```
 
 ## Licence

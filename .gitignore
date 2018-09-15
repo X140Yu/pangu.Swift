@@ -7,6 +7,8 @@ build/
 DerivedData/
 Demo/Pods
 
+*.xcodeproj
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
