@@ -17,8 +17,8 @@ class panguTests: XCTestCase {
 
     func testPerformance() {
         measure {
-            for _ in 1...100 {
-                "前面(中文123漢字) tail".spaced
+            (1...100).forEach { _ in
+                let _ = "前面(中文123漢字) tail".spaced
             }
         }
     }

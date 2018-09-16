@@ -31,7 +31,6 @@ public extension String {
             range: NSMakeRange(0, self.count), withTemplate: rule.1)
     }
 
-
     /// text with paranoid text spacing
     public var spaced: String {
 
